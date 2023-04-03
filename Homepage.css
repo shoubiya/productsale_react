@@ -1,0 +1,52 @@
+.img1 img{
+    height: 95vh;
+}
+.img2 img{
+    height: 95vh;
+}
+.img3 img{
+    height: 95vh;
+}
+.img4 img{
+    height: 95vh;
+}
+.trends{
+    color:black;
+    text-align: center;
+}
+.card-deck{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     row-gap: 40px;
+     column-gap: 20px;
+
+     
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.cat{
+   text-align: center;
+}
+.menubarl{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+}
+.card-prod{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+
+}
+.card-cart{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    color:black;
+}
